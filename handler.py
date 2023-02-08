@@ -61,9 +61,6 @@ class LoadDataSql:
             )
             cursor = connection.cursor()
             insert_string = """
-                        INSERT INTO dbo.job_topics_stage(job_id,topic_number,topic_score,model_version)
-                        VALUES
-                        (?, ?, ?, ?)
                         """
             cursor.fast_executemany = True
             cursor.executemany(insert_string, data_list)
