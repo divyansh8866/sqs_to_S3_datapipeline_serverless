@@ -1,5 +1,4 @@
 
-# Topic_model_64recs_Project 
 **Authors**\
 `By`: Divyansh Patel
 
